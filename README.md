@@ -17,7 +17,7 @@ npm install expo-media-picker --save
 Then, import with:
 
 ```js
-import Fade from "expo-media-picker";
+import MediaPicker from "expo-media-picker";
 ```
 
 Note:
@@ -46,9 +46,9 @@ You can see a full example app inside the /example folder!
 
 ## Props
 
-| Prop        | Required? | Type                         | Description                                                                                                                                     |
+<!-- | Prop        | Required? | Type                         | Description                                                                                                                                     |
 | ----------- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | `visible`   | false     | boolean                      | Show the children of `<MediaPicker>`.                                                                                                           |
 | `direction` | false     | string                       | Can be `"up"` or `"down"`. When the child component fades in there's an optional subtle translation that you can apply with `"up"` or `"down"`. |
 | `duration`  | false     | number                       | The amount of time in milliseconds the fade transition should take.                                                                             |
-| `style`     | false     | React Native Style or Object | Applies style a view around the faded child components                                                                                          |
+| `style`     | false     | React Native Style or Object | Applies style a view around the faded child components                                                                                          | -->
