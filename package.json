@@ -1,6 +1,6 @@
 {
   "name": "expo-media-picker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React Native Expo Media Picker (Files, Gallery & Camera)",
   "keywords": [
     "expo",
@@ -9,13 +9,21 @@
     "expo document picker",
     "expo image picker"
   ],
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "source": "./src/index.tsx",
+  "main": "./dist/index.js",
+  "private": true,
+  "typings": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "source": "./src/index.tsx"
+    },
+    "./package.json": "./package.json"
+  },
   "files": [
-    "dist",
-    "src",
-    "LICENSE",
-    "README.md"
+    "src","dist","LICENSE","README.md","package.json"
   ],
   "repository": {
     "type": "git",

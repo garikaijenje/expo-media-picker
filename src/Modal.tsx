@@ -45,17 +45,13 @@ export default function Modal(props: IProps) {
       presentationStyle="fullScreen"
     >
       <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
-        {/* <SafeAreaView style={[shona("flex-1"), shona(`bg-${bg}`)]}> */}
         <View {...rest}>
-          {/* <View style={[shona(design), style]}> */}
           {showClose && (
             <TouchableOpacity
               onPress={props.hide}
-              // design="%:w-8 center-center self-end m-10"
               style={{ width: 12, margin: 10 }}
             >
               <AntDesign name="close" />
-              {/* <AntDesign name="close" style={shona("%:ts-8 tc-primary")} /> */}
             </TouchableOpacity>
           )}
           {children}

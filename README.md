@@ -2,6 +2,10 @@
 
 A complete media file selector for React Native Expo.
 
+Functionality: Select Gallery / Files / Camera
+
+
+
 <!-- ![Fade example gif](https://user-images.githubusercontent.com/6455018/71566445-b0982780-2a85-11ea-96f9-2519dc33930d.gif) -->
 
 ## Installation
@@ -19,9 +23,14 @@ Then, import with:
 ```js
 import MediaPicker from "expo-media-picker";
 ```
-
 Note:
 You may also need to install `@expo/vector-icons`.
+
+Note:
+Currently facing a bug, if your import is not working try: 
+```js
+import MediaPicker from "expo-media-picker/dist";
+```
 
 ## Usage
 

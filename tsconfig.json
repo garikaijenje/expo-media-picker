@@ -1,13 +1,18 @@
 {
-//   "extends": "expo/tsconfig.base",
-  "include": ["src", "types"],
   "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false, // create files in dist folder
+    "noUnusedLocals": false,
+    "baseUrl": ".",
+    "declaration": false,
+    "module": "es2015",
+    "noImplicitAny": false,
+    "noUnusedParameters": true,
     "allowJs": true,
     "esModuleInterop": true,
     "jsx": "react-native",
     "lib": ["DOM", "ESNext"],
     "moduleResolution": "node",
-    // "noEmit": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "target": "ESNext",
@@ -16,5 +21,6 @@
     "rootDir": "./src",
     "outDir": "dist",
   },
-  "exclude": ["node_modules", "dist", "example"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

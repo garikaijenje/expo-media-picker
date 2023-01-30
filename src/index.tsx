@@ -1,14 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-// import {
-//   Container,
-//   Header,
-//   Body,
-//   // Touchable,
-//   Image,
-//   Input,
-//   OverlayLoader,
-//   ImageBackground,
-// } from "shonacss/components";
+
 import {
   Ionicons,
   FontAwesome,
